@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view_generic"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingRight="16dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kai180x116"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/restaurant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"/>
+        <TextView
+            android:id="@+id/restaurant_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"/>
+        <TextView
+            android:id="@+id/restaurant_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address"/>
+        <TextView
+            android:id="@+id/restaurant_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"/>
+        <TextView
+            android:id="@+id/restaurant_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cost"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:src="@mipmap/ic_star_black_18dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingRight="16dp"
+        />
+</LinearLayout>
