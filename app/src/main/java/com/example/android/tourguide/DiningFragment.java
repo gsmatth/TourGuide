@@ -25,7 +25,7 @@ public class DiningFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        //inflate view using tour_list.xml
+        //inflate ListView using tour_list.xml
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
         //create a new ArrayList called "tours" which will contain Tour objects
@@ -33,11 +33,11 @@ public class DiningFragment extends Fragment {
 
         //add Tour objects to "tours" ArrayList
         tours.add(new Tour("Kia", "only 4 star restuarant in Phoenix", "111 Apache Blvd", "Phoenix",
-                "AZ", 88444, "(602) 555-5555", 1, R.drawable.kai180x116  ));
+                "AZ", "88444", "(602) 555-5555", 1, R.drawable.kai180x116  ));
         tours.add(new Tour("EddieV", "only 4 star restuarant in Phoenix", "111 Apache Blvd", "Phoenix",
-                "AZ", 88444, "(602) 555-5555", 1, R.drawable.kai180x116  ));
+                "AZ", "88444", "(602) 555-5555", 1, R.drawable.kai180x116  ));
         tours.add(new Tour("Wrights", "only 4 star restuarant in Phoenix", "111 Apache Blvd", "Phoenix",
-                "AZ", 88444, "(602) 555-5555", 1, R.drawable.kai180x116  ));
+                "AZ", "88444", "(602) 555-5555", 1, R.drawable.kai180x116  ));
 
         //create a new TourAdapter
         TourAdapter itemsAdapter = new TourAdapter(getActivity(), tours, R.color.colorPrimary);
