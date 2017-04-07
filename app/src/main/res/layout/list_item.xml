@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:id="@+id/list_view_generic"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:paddingRight="16dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/restuarant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="title"/>
+        <TextView
+            android:id="@+id/restuarant_description"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="description"/>
+        <TextView
+            android:id="@+id/restuarant_address"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="address"/>
+        <TextView
+            android:id="@+id/restuarant_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="phone"/>
+        <TextView
+            android:id="@+id/restuarant_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="cost"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:paddingRight="16dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"/>
 </LinearLayout>

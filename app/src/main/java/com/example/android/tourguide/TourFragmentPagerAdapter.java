@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
-    public TourFragmentPagerAdapter(FragmentManager fm)(super(fm);)
+    public TourFragmentPagerAdapter(FragmentManager fm){super(fm);}
 
     @Override
     public Fragment getItem(int position){
@@ -19,7 +19,7 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount(){return 1;}
-    
+
     @Override
     public CharSequence getPageTitle(int position){
         if(position == 0){
