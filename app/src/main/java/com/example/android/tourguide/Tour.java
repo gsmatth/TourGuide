@@ -1,5 +1,7 @@
 package com.example.android.tourguide;
 
+import android.util.Log;
+
 /**
  * Created by djp on 4/6/17.
  */
@@ -10,13 +12,13 @@ public class Tour {
     private String mAddressStreet;
     private String mAddressCity;
     private String mAddressState;
-    private int mAddressZipCode;
+    private String mAddressZipCode;
     private String mPhoneNumber;
     private int mCostRange;
     private int mFoodImageSourceId;
 
     public Tour(String name, String description, String addressStreet, String addressCity,
-                String addressState, int addressZipCode, String phoneNumber, int costRange,
+                String addressState, String addressZipCode, String phoneNumber, int costRange,
                 int foodImageSourceId ) {
 
         mName = name;
@@ -29,6 +31,7 @@ public class Tour {
         mCostRange = costRange;
         mFoodImageSourceId = foodImageSourceId;
     }
+
 
     public String getName() {
         return mName;
@@ -50,7 +53,7 @@ public class Tour {
         return mAddressCity;
     }
 
-    public int getAddressZipCode() {
+    public String getAddressZipCode() {
         return mAddressZipCode;
     }
 
