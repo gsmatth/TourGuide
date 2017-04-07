@@ -30,40 +30,45 @@ public class Tour {
         mFoodImageSourceId = foodImageSourceId;
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
-    public String getmDescription() {
+    public String getDescription() {
         return mDescription;
     }
 
-    public String getmAddressState() {
+    public String getAddressState() {
         return mAddressState;
     }
 
-    public String getmAddressStreet() {
+    public String getAddressStreet() {
         return mAddressStreet;
     }
 
-    public String getmAddressCity() {
+    public String getAddressCity() {
         return mAddressCity;
     }
 
-    public int getmAddressZipCode() {
+    public int getAddressZipCode() {
         return mAddressZipCode;
     }
 
-    public int getmCostRange() {
+    public int getCostRange() {
         return mCostRange;
     }
 
-    public String getmPhoneNumber() {
+    public String getPhoneNumber() {
         return mPhoneNumber;
     }
 
-    public int getmFoodImageSourceId() {
+    public int getFoodImageSourceId() {
         return mFoodImageSourceId;
+    }
+
+    public String getCompleteAddress(){
+        return mAddressStreet + ", " + mAddressCity +
+                ", " + mAddressState + ", " + mAddressZipCode ;
     }
 
 

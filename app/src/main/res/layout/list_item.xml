@@ -8,49 +8,51 @@
     <ImageView
         android:id="@+id/food_image"
         android:layout_width="0dp"
-        android:layout_height="88dp"
+        android:layout_height="match_parent"
         android:paddingRight="16dp"
+        android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:layout_weight="1"/>
+        android:src="@drawable/kai180x116"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="3">
 
         <TextView
-            android:id="@+id/restuarant_title"
+            android:id="@+id/restaurant_title"
             android:layout_width="wrap_content"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
             android:text="title"/>
         <TextView
-            android:id="@+id/restuarant_description"
+            android:id="@+id/restaurant_description"
             android:layout_width="wrap_content"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
             android:text="description"/>
         <TextView
-            android:id="@+id/restuarant_address"
+            android:id="@+id/restaurant_address"
             android:layout_width="wrap_content"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
             android:text="address"/>
         <TextView
-            android:id="@+id/restuarant_phone_number"
+            android:id="@+id/restaurant_phone_number"
             android:layout_width="wrap_content"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
             android:text="phone"/>
         <TextView
-            android:id="@+id/restuarant_cost"
+            android:id="@+id/restaurant_cost"
             android:layout_width="wrap_content"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
             android:text="cost"/>
     </LinearLayout>
 
     <ImageView
         android:id="@+id/star_image"
+        android:src="@mipmap/ic_star_black_18dp"
         android:layout_width="0dp"
-        android:layout_height="88dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:paddingRight="16dp"
-        android:scaleType="centerCrop"
-        android:layout_weight="1"/>
+        />
 </LinearLayout>

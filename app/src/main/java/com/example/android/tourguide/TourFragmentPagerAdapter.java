@@ -14,6 +14,8 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position){
         if(position == 0){
             return new DiningFragment();
+        } else{
+            return new DiningFragment();
         }
     }
 
