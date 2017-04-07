@@ -14,12 +14,13 @@ public class Tour {
     private String mAddressState;
     private String mAddressZipCode;
     private String mPhoneNumber;
-    private int mCostRange;
+    private String mCostRange;
     private int mFoodImageSourceId;
+    private int mStarRatingResourceId;
 
     public Tour(String name, String description, String addressStreet, String addressCity,
-                String addressState, String addressZipCode, String phoneNumber, int costRange,
-                int foodImageSourceId ) {
+                String addressState, String addressZipCode, String phoneNumber, String costRange,
+                int foodImageSourceId, int starRatingResourceId ) {
 
         mName = name;
         mDescription = description;
@@ -30,6 +31,7 @@ public class Tour {
         mPhoneNumber = phoneNumber;
         mCostRange = costRange;
         mFoodImageSourceId = foodImageSourceId;
+        mStarRatingResourceId = starRatingResourceId;
     }
 
 
@@ -57,7 +59,7 @@ public class Tour {
         return mAddressZipCode;
     }
 
-    public int getCostRange() {
+    public String getCostRange() {
         return mCostRange;
     }
 
@@ -67,6 +69,10 @@ public class Tour {
 
     public int getFoodImageSourceId() {
         return mFoodImageSourceId;
+    }
+
+    public int getStarRatingResourceId() {
+        return mStarRatingResourceId;
     }
 
     public String getCompleteAddress(){
@@ -79,14 +85,15 @@ public class Tour {
     public String toString() {
         return "Tour{" +
                 "mName=" + mName +
-                ", mDescription=" + mDescription +
-                ", mAddressStreet=" + mAddressStreet +
-                ", mAddressCity=" + mAddressCity +
-                ", mAddressState=" +  mAddressState +
-                ", mAddressZipCode=" + mAddressZipCode +
-                ", mPhoneNumber=" +  mPhoneNumber +
-                ", mCostRange=" +  mCostRange +
-                ", mFoodImageSourceId=" + mFoodImageSourceId +
+                ", mDescription = " + mDescription +
+                ", mAddressStreet = " + mAddressStreet +
+                ", mAddressCity = " + mAddressCity +
+                ", mAddressState = " +  mAddressState +
+                ", mAddressZipCode = " + mAddressZipCode +
+                ", mPhoneNumber = " +  mPhoneNumber +
+                ", mCostRange = " +  mCostRange +
+                ", mFoodImageSourceId = " + mFoodImageSourceId +
+                ", mStarRatingResourceId = " + mStarRatingResourceId +
                 '}';
 
     }}

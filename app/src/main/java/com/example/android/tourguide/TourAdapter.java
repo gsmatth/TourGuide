@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -40,6 +41,9 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         Tour currentTourObject = getItem(position);
         Log.v("TourAdapter", "currentTourObject: " + currentTourObject);
 
+        ImageView foodImage = (ImageView) listItemView.findViewById(R.id.food_image);
+        foodImage.setImageResource(currentTourObject.getFoodImageSourceId());
+
         //set the tex
         TextView restaurantTitle = (TextView) listItemView.findViewById(R.id.restaurant_title);
         Log.v("TourAdapter", "restaurantTitle: "+ restaurantTitle.toString());
@@ -57,9 +61,12 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         Log.v("TourAdapter", "restaurantPhoneNumber: "+ restaurantPhoneNumber);
         restaurantPhoneNumber.setText(currentTourObject.getPhoneNumber());
 
-//        TextView restaurantCostRange = (TextView) listItemView.findViewById(R.id.restaurant_cost);
-//        Log.v("TourAdapter", "restaurantCostRange: "+ restaurantCostRange);
-//        restaurantCostRange.setText(currentTourObject.getCostRange());
+        TextView restaurantCostRange = (TextView) listItemView.findViewById(R.id.restaurant_cost);
+        Log.v("TourAdapter", "restaurantCostRange: "+ restaurantCostRange);
+        restaurantCostRange.setText(currentTourObject.getCostRange());
+
+        ImageView starIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
+        starIcon.setImageResource(currentTourObject.getStarRatingResourceId());
 
         return listItemView;
     }
