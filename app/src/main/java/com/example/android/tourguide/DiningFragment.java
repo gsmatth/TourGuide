@@ -31,32 +31,27 @@ public class DiningFragment extends Fragment {
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
         //add Tour objects to "tours" ArrayList
-        tours.add(new Tour("Kia", "Arizona’s only AAA Five-Diamond and Forbes Five-Star restaurant" +
-                " .features a menu rich in creativity, history and Native American" +
-                " culture.", "111 Apache Blvd", "Chandler",
-                "AZ", "88444", "(602) 385-5726", "$$$$", R.drawable.kai, R.mipmap.ic_4star  ));
-        tours.add(new Tour("EddieV", "Prime Seafood restaurant at the " +
-                "Scottsdale Quarter. Happy hour, live jazz music, & valet parking.",
-                "15323 N Scottsdale Rd", "Scottsdale",
-                "AZ", "88254", "(480) 730-4800", "$$$", R.drawable.kai, R.mipmap.ic_3star  ));
-        tours.add(new Tour("Wrights", "Contemporary restaurant dishing out high-end New American" +
-                " fare inside the luxury Biltmore Hotel.", "2400 E Missouri Ave", "Phoenix",
-                "AZ", "88016", "(855) 689-2878", "$$$", R.drawable.kai, R.mipmap.ic_3star  ));
-        tours.add(new Tour("North at Arcadia", "Contemporary takes on Italian classics star" +
-                " at this warehouse-chic trattoria with a lively bar.", "4925 N 40th St", "Phoenix",
-                "AZ", "88018", "(602) 324-5600", "$$$", R.drawable.kai, R.mipmap.ic_3star  ));
-        tours.add(new Tour("Firebird Grill", "Chain restaurant serving steaks, seafood & cocktails" +
-                " in an upscale lodgelike setting", "3435 W Chandler Blvd", "Chandler",
-                "AZ", "85226", "(480) 814-8003", "$$$", R.drawable.kai, R.mipmap.ic_3star  ));
-        tours.add(new Tour("Carolina's", "Landmark Mexican joint turning out traditional dishes" +
-                " in a basic, counter-serve setting.", "1202 E Mohave St", "Phoenix",
-                "AZ", "85034", "(602) 666-6666", "$$$", R.drawable.kai, R.mipmap.ic_2star  ));
-        tours.add(new Tour("Sizzle Korean BBQ", "classic Korean techniques at a fine dining level.",
-                "21001 N Tatum Blvd #36", "Phoenix",
-                "AZ", "85050", "(480) 265-9406", "$$$", R.drawable.kai, R.mipmap.ic_3star ));
-        tours.add(new Tour("Kabuki", "Japanese chain with a clubby vibe offering sushi, entrees," +
-                " lunch specials & happy hours.", "2000 E Rio Salado Pkwy", "Tempe",
-                "AZ", "85281", "(480) 350-9160", "$$$", R.drawable.kai, R.mipmap.ic_2star  ));
+        tours.add(new Tour(R.string.kia_restaurant_title, R.string.kia_restaurant_description,
+                R.string.kai_address, R.string.kai_phone_number, R.string.kai_cost_range,
+                R.drawable.kai, R.mipmap.ic_4star ));
+        tours.add(new Tour(R.string.eddiev_restaurant_title, R.string.eddiev_restaurant_description,
+                R.string.eddiev_address, R.string.eddiev_phone_number, R.string.eddiev_cost_range,
+                R.drawable.eddiv, R.mipmap.ic_3star  ));
+        tours.add(new Tour(R.string.wrights_restaurant_title, R.string.wrights_restaurant_description,
+                R.string.wrights_address, R.string.wrights_phone_number, R.string.wrights_cost_range,
+                R.drawable.wrights, R.mipmap.ic_3star  ));
+        tours.add(new Tour(R.string.north_restaurant_title, R.string.north_restaurant_description,
+                R.string.north_address, R.string.north_phone_number, R.string.north_cost_range,
+                R.drawable.north, R.mipmap.ic_3star  ));
+        tours.add(new Tour(R.string.firebird_restaurant_title, R.string.firebird_restaurant_description,
+                R.string.firebird_address, R.string.firebird_phone_number, R.string.firebird_cost_range,
+                R.drawable.firebird, R.mipmap.ic_3star  ));
+        tours.add(new Tour(R.string.carolina_restaurant_title, R.string.carolina_restaurant_description,
+                R.string.carolina_address, R.string.carolina_phone_number, R.string.carolina_cost_range,
+                R.drawable.carolina, R.mipmap.ic_2star  ));
+        tours.add(new Tour(R.string.kabuki_restaurant_title, R.string.kabuki_restaurant_description,
+                R.string.kabuki_address, R.string.kabuki_phone_number, R.string.kabuki_cost_range,
+                R.drawable.kabuki, R.mipmap.ic_2star  ));
 
         //create a new TourAdapter
         TourAdapter itemsAdapter = new TourAdapter(getActivity(), tours, R.color.colorPrimary);

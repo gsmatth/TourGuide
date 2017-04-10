@@ -2,32 +2,35 @@ package com.example.android.tourguide;
 
 import android.util.Log;
 
+import static android.R.attr.phoneNumber;
+
 /**
  * Created by djp on 4/6/17.
  */
 
 public class Tour {
-    private String mName;
-    private String mDescription;
-    private String mAddressStreet;
-    private String mAddressCity;
-    private String mAddressState;
-    private String mAddressZipCode;
-    private String mPhoneNumber;
-    private String mCostRange;
+    private int mName;
+    private int mDescription;
+    private int mAddress;
+//    private int mAddressStreet;
+//    private int mAddressCity;
+//    private String mAddressState;
+//    private String mAddressZipCode;
+    private int mPhoneNumber;
+    private int  mCostRange;
     private int mFoodImageSourceId;
     private int mStarRatingResourceId;
 
-    public Tour(String name, String description, String addressStreet, String addressCity,
-                String addressState, String addressZipCode, String phoneNumber, String costRange,
+    public Tour(int name, int description, int address, int  phoneNumber, int costRange,
                 int foodImageSourceId, int starRatingResourceId ) {
 
         mName = name;
         mDescription = description;
-        mAddressStreet = addressStreet;
-        mAddressCity =  addressCity;
-        mAddressState =  addressState;
-        mAddressZipCode = addressZipCode;
+        mAddress= address;
+//        mAddressStreet = addressStreet;
+//        mAddressCity =  addressCity;
+//        mAddressState =  addressState;
+//        mAddressZipCode = addressZipCode;
         mPhoneNumber = phoneNumber;
         mCostRange = costRange;
         mFoodImageSourceId = foodImageSourceId;
@@ -35,35 +38,35 @@ public class Tour {
     }
 
 
-    public String getName() {
+    public int getName() {
         return mName;
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return mDescription;
     }
 
-    public String getAddressState() {
-        return mAddressState;
-    }
+//    public int getAddressStreet() {
+//        return mAddressStreet;
+//    }
+//
+//    public int getAddressCity() {
+//        return mAddressCity;
+//    }
+//
+//    public String  getAddressState() {
+//        return mAddressState;
+//    }
+//
+//    public String getAddressZipCode() {
+//        return mAddressZipCode;
+//    }
 
-    public String getAddressStreet() {
-        return mAddressStreet;
-    }
-
-    public String getAddressCity() {
-        return mAddressCity;
-    }
-
-    public String getAddressZipCode() {
-        return mAddressZipCode;
-    }
-
-    public String getCostRange() {
+    public int getCostRange() {
         return mCostRange;
     }
 
-    public String getPhoneNumber() {
+    public int getPhoneNumber() {
         return mPhoneNumber;
     }
 
@@ -75,21 +78,26 @@ public class Tour {
         return mStarRatingResourceId;
     }
 
-    public String getCompleteAddress(){
-        return mAddressStreet + ", " + mAddressCity +
-                ", " + mAddressState + ", " + mAddressZipCode ;
+    public int getCompleteAddress(){
+        return mAddress;
+
     }
 
+//    public String getCompleteAddress(){
+//        return mAddressStreet + ", " + mAddressCity +
+//                ", " + mAddressState + ", " + mAddressZipCode ;
+//    }
 
     @Override
     public String toString() {
         return "Tour{" +
                 "mName=" + mName +
                 ", mDescription = " + mDescription +
-                ", mAddressStreet = " + mAddressStreet +
-                ", mAddressCity = " + mAddressCity +
-                ", mAddressState = " +  mAddressState +
-                ", mAddressZipCode = " + mAddressZipCode +
+                ", mAddress = " + mAddress +
+//                ", mAddressStreet = " + mAddressStreet +
+//                ", mAddressCity = " + mAddressCity +
+//                ", mAddressState = " +  mAddressState +
+//                ", mAddressZipCode = " + mAddressZipCode +
                 ", mPhoneNumber = " +  mPhoneNumber +
                 ", mCostRange = " +  mCostRange +
                 ", mFoodImageSourceId = " + mFoodImageSourceId +
