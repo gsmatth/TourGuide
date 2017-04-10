@@ -3,4 +3,80 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kia_restaurant_title">Kai</string>
+    <string name="kia_restaurant_description">Arizona’s only AAA Five-Diamond and Forbes Five-Star
+        restaurant. features a menu rich in creativity, history and Native American culture.</string>
+    <string name="kai_address">15323 N Scottsdale Rd, Scotttsdale, AZ 88524</string>
+    <string name="kai_address_city">Scottsdale</string>
+    <string name="kai_address_state">AZ</string>
+    <string name="kai_address_zip_code">88524</string>
+    <string name="kai_cost_range">$$$$</string>
+    <string name="kai_phone_number">480 730-4800</string>
+
+
+    <string name="eddiev_restaurant_title">Eddie Vs</string>
+    <string name="eddiev_restaurant_description">Prime Seafood and Steak restaurant at
+        the Scottsdale Quarter. Happy hour, live jazz music,valet parking.</string>
+    <string name="eddiev_address">15323 N Scottsdale Rd, Scottsdale, AZ, 88524</string>
+    <string name="eddiev_address_city">Scottsdale</string>
+    <string name="eddiev_address_state">AZ</string>
+    <string name="eddiev_address_zip_code">88524</string>
+    <string name="eddiev_cost_range">$$$</string>
+    <string name="eddiev_phone_number">480 730-4800</string>
+
+    <string name="wrights_restaurant_title">Wrights</string>
+    <string name="wrights_restaurant_description">Contemporary restaurant dishing out high-end
+        New American fare inside the luxury Biltmore Hotel.</string>
+    <string name="wrights_address">2400 E Missouri Ave, Phoenix, AZ, 88016</string>
+    <string name="wrights_address_city">Scottsdale</string>
+    <string name="wrights_address_state">AZ</string>
+    <string name="wrights_address_zip_code">88524</string>
+    <string name="wrights_cost_range">$$$</string>
+    <string name="wrights_phone_number">(855) 689-2878</string>
+
+
+    <string name="north_restaurant_title">North\'s at Arcadia</string>
+    <string name="north_restaurant_description">Contemporary takes on Italian classics star at
+        this warehouse-chic trattoria with a lively bar.</string>
+    <string name="north_address">4925 N 40th St, Phoenix, AZ, 88018</string>
+    <string name="north_address_city">Scottsdale</string>
+    <string name="north_address_state">AZ</string>
+    <string name="north_address_zip_code">88524</string>
+    <string name="north_cost_range">$$$</string>
+    <string name="north_phone_number">(602) 324-5600</string>
+
+
+    <string name="firebird_restaurant_title">Firebird Grill</string>
+    <string name="firebird_restaurant_description">Chain restaurant serving steaks, seafood and cocktails
+              in an upscale lodgelike setting</string>
+    <string name="firebird_address">3435 W Chandler Blvd", Chandler,
+               AZ, 85226</string>
+    <string name="firebird_address_city">Scottsdale</string>
+    <string name="firebird_address_state">AZ</string>
+    <string name="firebird_address_zip_code">88524</string>
+    <string name="firebird_cost_range">$$$</string>
+    <string name="firebird_phone_number">480 730-4800</string>
+
+
+    <string name="carolina_restaurant_title">Carolina\s</string>
+    <string name="carolina_restaurant_description">Landmark Mexican joint turning out traditional dishes
+              in a basic, counter-serve setting.</string>
+    <string name="carolina_address">1202 E Mohave St, Phoenix,
+               AZ, 85034</string>
+    <string name="carolina_address_city">Scottsdale</string>
+    <string name="carolina_address_state">AZ</string>
+    <string name="carolina_address_zip_code">88524</string>
+    <string name="carolina_cost_range">$$</string>
+    <string name="carolina_phone_number">(602) 252-1503</string>
+
+
+    <string name="kabuki_restaurant_title">Kabuki</string>
+    <string name="kabuki_restaurant_description">Japanese chain with a clubby vibe offering sushi,
+        entrees, lunch specials and happy hours.</string>
+    <string name="kabuki_address">2000 E Rio Salado Pkwy, Tempe, AZ, 85281</string>
+    <string name="kabuki_address_city">Scottsdale</string>
+    <string name="kabuki_address_state">AZ</string>
+    <string name="kabuki_address_zip_code">88524</string>
+    <string name="kabuki_cost_range">$$</string>
+    <string name="kabuki_phone_number">(480) 350-9160</string>
 </resources>
