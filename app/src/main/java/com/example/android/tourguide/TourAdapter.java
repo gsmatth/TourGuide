@@ -27,6 +27,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         Log.v("TourAdapter", "value of colorResosurceId parameter passed in: " + colorResourceId);
         mColorResourceId = colorResourceId;
     }
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent){
@@ -41,29 +42,29 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         Tour currentTourObject = getItem(position);
         Log.v("TourAdapter", "currentTourObject: " + currentTourObject);
 
-        ImageView foodImage = (ImageView) listItemView.findViewById(R.id.food_image);
-        foodImage.setImageResource(currentTourObject.getFoodImageSourceId());
+        ImageView foodImage = (ImageView) listItemView.findViewById(R.id.site_image);
+        foodImage.setImageResource(currentTourObject.getImageSourceId());
 
         //set the tex
-        TextView restaurantTitle = (TextView) listItemView.findViewById(R.id.restaurant_title);
-        Log.v("TourAdapter", "restaurantTitle: "+ restaurantTitle.toString());
-        restaurantTitle.setText(currentTourObject.getName());
+        TextView title = (TextView) listItemView.findViewById(R.id.title);
+        Log.v("TourAdapter", "title: "+ title.toString());
+        title.setText(currentTourObject.getName());
 
-        TextView restaurantDescription = (TextView) listItemView.findViewById(R.id.restaurant_description);
-        Log.v("TourAdapter", "restaurantDesc: "+ restaurantDescription);
-        restaurantDescription.setText(currentTourObject.getDescription());
+        TextView description = (TextView) listItemView.findViewById(R.id.description);
+        Log.v("TourAdapter", "description: "+ description);
+        description.setText(currentTourObject.getDescription());
 
-        TextView restaurantAddress = (TextView) listItemView.findViewById(R.id.restaurant_address);
-        Log.v("TourAdapter", "restaurantAddress: "+ restaurantAddress);
-        restaurantAddress.setText(currentTourObject.getCompleteAddress());
+        TextView address = (TextView) listItemView.findViewById(R.id.address);
+        Log.v("TourAdapter", "address: "+ address);
+        address.setText(currentTourObject.getCompleteAddress());
 
-        TextView restaurantPhoneNumber = (TextView) listItemView.findViewById(R.id.restaurant_phone_number);
-        Log.v("TourAdapter", "restaurantPhoneNumber: "+ restaurantPhoneNumber);
-        restaurantPhoneNumber.setText(currentTourObject.getPhoneNumber());
+        TextView phoneNumber = (TextView) listItemView.findViewById(R.id.phone_number);
+        Log.v("TourAdapter", "phoneNumber: "+ phoneNumber);
+        phoneNumber.setText(currentTourObject.getPhoneNumber());
 
-        TextView restaurantCostRange = (TextView) listItemView.findViewById(R.id.restaurant_cost);
-        Log.v("TourAdapter", "restaurantCostRange: "+ restaurantCostRange);
-        restaurantCostRange.setText(currentTourObject.getCostRange());
+        TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
+        Log.v("TourAdapter", "costRange: "+ costRange);
+        costRange.setText(currentTourObject.getCostRange());
 
         ImageView starIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
         starIcon.setImageResource(currentTourObject.getStarRatingResourceId());

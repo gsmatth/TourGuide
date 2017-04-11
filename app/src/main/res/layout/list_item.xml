@@ -6,14 +6,13 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/food_image"
+        android:id="@+id/site_image"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:paddingRight="16dp"
         android:layout_marginLeft="2dp"
         android:layout_weight="1"
-        android:scaleType="centerCrop"
-        android:src="@drawable/kai"/>
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -24,27 +23,27 @@
         >
 
         <TextView
-            android:id="@+id/restaurant_title"
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:textStyle="bold"
             android:layout_height="wrap_content"
             android:textSize="18sp"/>
         <TextView
-            android:id="@+id/restaurant_description"
+            android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"/>
         <TextView
-            android:id="@+id/restaurant_address"
+            android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"/>
         <TextView
-            android:id="@+id/restaurant_phone_number"
+            android:id="@+id/phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
-            android:id="@+id/restaurant_cost"
+            android:id="@+id/cost"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"/>

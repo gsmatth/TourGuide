@@ -18,11 +18,11 @@ public class Tour {
 //    private String mAddressZipCode;
     private int mPhoneNumber;
     private int  mCostRange;
-    private int mFoodImageSourceId;
+    private int mImageSourceId;
     private int mStarRatingResourceId;
 
     public Tour(int name, int description, int address, int  phoneNumber, int costRange,
-                int foodImageSourceId, int starRatingResourceId ) {
+                 int foodImageSourceId, int starRatingResourceId ) {
 
         mName = name;
         mDescription = description;
@@ -33,10 +33,19 @@ public class Tour {
 //        mAddressZipCode = addressZipCode;
         mPhoneNumber = phoneNumber;
         mCostRange = costRange;
-        mFoodImageSourceId = foodImageSourceId;
+        mImageSourceId = foodImageSourceId;
         mStarRatingResourceId = starRatingResourceId;
     }
 
+    public Tour(int name, int description, int address, int  phoneNumber,
+                int ImageSourceId ) {
+
+        mName = name;
+        mDescription = description;
+        mAddress= address;
+        mPhoneNumber = phoneNumber;
+        mImageSourceId = ImageSourceId;
+    }
 
     public int getName() {
         return mName;
@@ -70,8 +79,8 @@ public class Tour {
         return mPhoneNumber;
     }
 
-    public int getFoodImageSourceId() {
-        return mFoodImageSourceId;
+    public int getImageSourceId() {
+        return mImageSourceId;
     }
 
     public int getStarRatingResourceId() {
@@ -100,7 +109,7 @@ public class Tour {
 //                ", mAddressZipCode = " + mAddressZipCode +
                 ", mPhoneNumber = " +  mPhoneNumber +
                 ", mCostRange = " +  mCostRange +
-                ", mFoodImageSourceId = " + mFoodImageSourceId +
+                ", mImageSourceId = " + mImageSourceId +
                 ", mStarRatingResourceId = " + mStarRatingResourceId +
                 '}';
 

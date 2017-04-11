@@ -6,12 +6,12 @@
     <string name="kia_restaurant_title">Kai</string>
     <string name="kia_restaurant_description">Arizona’s only AAA Five-Diamond and Forbes Five-Star
         restaurant. features a menu rich in creativity, history and Native American culture.</string>
-    <string name="kai_address">15323 N Scottsdale Rd, Scotttsdale, AZ 88524</string>
-    <string name="kai_address_city">Scottsdale</string>
+    <string name="kai_address">5594 Wild Horse Pass Blvd, Phoenix, AZ 85048</string>
+    <string name="kai_address_city">Phoenix</string>
     <string name="kai_address_state">AZ</string>
-    <string name="kai_address_zip_code">88524</string>
+    <string name="kai_address_zip_code">85048</string>
     <string name="kai_cost_range">$$$$</string>
-    <string name="kai_phone_number">480 730-4800</string>
+    <string name="kai_phone_number">(602) 385-5726</string>
 
 
     <string name="eddiev_restaurant_title">Eddie Vs</string>
@@ -22,7 +22,7 @@
     <string name="eddiev_address_state">AZ</string>
     <string name="eddiev_address_zip_code">88524</string>
     <string name="eddiev_cost_range">$$$</string>
-    <string name="eddiev_phone_number">480 730-4800</string>
+    <string name="eddiev_phone_number">(480) 730-4800</string>
 
     <string name="wrights_restaurant_title">Wrights</string>
     <string name="wrights_restaurant_description">Contemporary restaurant dishing out high-end
