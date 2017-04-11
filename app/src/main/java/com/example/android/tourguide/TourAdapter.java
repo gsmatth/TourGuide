@@ -62,13 +62,24 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         Log.v("TourAdapter", "phoneNumber: "+ phoneNumber);
         phoneNumber.setText(currentTourObject.getPhoneNumber());
 
-        TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
-        Log.v("TourAdapter", "costRange: "+ costRange);
-        costRange.setText(currentTourObject.getCostRange());
+        if (currentTourObject.mCostRange == 0) {
+            TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
+            costRange.setVisibility(View.GONE);
 
-        ImageView starIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
-        starIcon.setImageResource(currentTourObject.getStarRatingResourceId());
+        } else {
+            TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
+            Log.v("TourAdapter", "costRange: " + costRange);
+            costRange.setText(currentTourObject.getCostRange());
 
+        }
+
+        if(currentTourObject.mStarRatingResourceId == 0){
+            ImageView starRatingIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
+            starRatingIcon.setVisibility(View.GONE);
+       } else {
+            ImageView starIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
+            starIcon.setImageResource(currentTourObject.getStarRatingResourceId());
+        }
         return listItemView;
     }
 

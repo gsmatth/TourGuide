@@ -17,9 +17,9 @@ public class Tour {
 //    private String mAddressState;
 //    private String mAddressZipCode;
     private int mPhoneNumber;
-    private int  mCostRange;
     private int mImageSourceId;
-    private int mStarRatingResourceId;
+    public int  mCostRange = 0;
+    public int mStarRatingResourceId = 0;
 
     public Tour(int name, int description, int address, int  phoneNumber, int costRange,
                  int foodImageSourceId, int starRatingResourceId ) {

@@ -15,19 +15,25 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position){
         if(position == 0){
             return new DiningFragment();
-        } else{
+        } else if(position == 1){
+            return new SiteFragment();
+        }
+        else{
             return new DiningFragment();
         }
     }
 
     @Override
-    public int getCount(){return 1;}
+    public int getCount(){return 2;}
 
     @Override
     public CharSequence getPageTitle(int position){
         if(position == 0){
             return "dining";
-        } else {
+        } else if(position == 1){
+            return "sites";
+        }
+        else {
             return "dining";
         }
     }
