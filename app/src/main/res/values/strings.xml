@@ -79,4 +79,50 @@
     <string name="kabuki_address_zip_code">88524</string>
     <string name="kabuki_cost_range">$$</string>
     <string name="kabuki_phone_number">(480) 350-9160</string>
+
+    <string name="davis_site_title">The Pima Air and Space Museum</string>
+    <string name="davis_site_description">One of the largest non-government funded aviation and
+        space museums in the world! Featuring over 300 historical aircrafts</string>
+    <string name="davis_site__address">6000 E. Valencia Rd, Tucson, Arizona 85756</string>
+    <string name="davis_site_address_city">Scottsdale</string>
+    <string name="davis_site_address_state">AZ</string>
+    <string name="davis_site_address_zip_code">88524</string>
+    <string name="davis_site_phone_number">(520) 574-0462</string>
+
+    <string name="dechelly_site_title">Canyon DeChelley National Park</string>
+    <string name="dechelley_site_description">For nearly 5,000 years, people have lived in these
+        canyons - longer than anyone has lived uninterrupted anywhere on the Colorado Plateau</string>
+    <string name="dechelley_site__address">Chinle, AZ 86503</string>
+    <string name="dechelley_site_address_city">Scottsdale</string>
+    <string name="dechelley_site_address_state">AZ</string>
+    <string name="dechelley_site_address_zip_code">88524</string>
+    <string name="dechelley_site_phone_number">(928) 674-5500</string>
+
+    <string name="grand_canyon_site_title">Grand Canyon Park National Park</string>
+    <string name="grand_canyon_site_description">A natural formation distinguished by layered bands
+        of red rock, revealing millions of years of geological history in cross-section</string>
+    <string name="grand_canyon_site__address">Grand Canyon, AZ 86023</string>
+    <string name="grand_canyon_site_address_city">Scottsdale</string>
+    <string name="grand_canyon_site_address_state">AZ</string>
+    <string name="grand_canyon_site_address_zip_code">88524</string>
+    <string name="grand_canyon_site_phone_number">(928) 638-7888 </string>
+
+    <string name="flagstaff_site_title">Humphreys Peak</string>
+    <string name="flagstaff_site_description">Humphreys Peak is the highest natural point in the
+        U.S. state of Arizona, with an elevation of 12,633 feet.</string>
+    <string name="flagstaff_site__address">Flaggstaff, AZ  35.34640°N / 111.6778°W</string>
+    <string name="flagstaff_site_address_city">Scottsdale</string>
+    <string name="flagstaff_site_address_state">AZ</string>
+    <string name="flagstaff_site_address_zip_code">88524</string>
+    <string name="flagstaff_site_phone_number">None</string>
+
+    <string name="missle_site_title">Titan Missle Museum</string>
+    <string name="missle_site_description">Air Force Facility Missile Site 8 also known as the Titan
+        II ICBM Site 571-7, is a former ICBM missile</string>
+    <string name="missle_site__address">1580 Duval Mine Road, Green Valley, AZ 85614</string>
+    <string name="missle_site_address_city">Scottsdale</string>
+    <string name="missle_site_address_state">AZ</string>
+    <string name="missle_site_address_zip_code">88524</string>
+    <string name="missle_site_phone_number">(520) 625-7736</string>
+
 </resources>
