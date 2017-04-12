@@ -32,19 +32,19 @@ public class SiteFragment extends Fragment {
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
         tours.add(new Tour(R.string.dechelly_site_title, R.string.dechelley_site_description,
-                R.string.dechelley_site__address, R.string.dechelley_site_phone_number,
+                R.string.dechelley_site_address, R.string.dechelley_site_phone_number,
                 R.drawable.dechelly));
         tours.add(new Tour(R.string.davis_site_title, R.string.davis_site_description,
-                R.string.davis_site__address, R.string.davis_site_phone_number,
+                R.string.davis_site_address, R.string.davis_site_phone_number,
                 R.drawable.davis));
         tours.add(new Tour(R.string.grand_canyon_site_title, R.string.grand_canyon_site_description,
-                R.string.grand_canyon_site__address, R.string.grand_canyon_site_phone_number,
+                R.string.grand_canyon_site_address, R.string.grand_canyon_site_phone_number,
                 R.drawable.grandcanyon));
         tours.add(new Tour (R.string.flagstaff_site_title, R.string.flagstaff_site_description,
-                R.string.flagstaff_site__address, R.string.flagstaff_site_phone_number,
+                R.string.flagstaff_site_address, R.string.flagstaff_site_phone_number,
                 R.drawable.flagstaff));
         tours.add(new Tour(R.string.missle_site_title, R.string.missle_site_description,
-                R.string.missle_site__address, R.string.missle_site_phone_number,
+                R.string.missle_site_address, R.string.missle_site_phone_number,
                 R.drawable.missle));
 
 
