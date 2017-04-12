@@ -18,7 +18,7 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if(position == 1){
             return new SiteFragment();
         }  else if(position == 2){
-            return new SiteFragment();
+            return new SportsFragment();
         } else {
             return new DiningFragment();
         }

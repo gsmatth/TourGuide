@@ -83,7 +83,7 @@
     <string name="davis_site_title">The Pima Air and Space Museum</string>
     <string name="davis_site_description">One of the largest non-government funded aviation and
         space museums in the world! Featuring over 300 historical aircrafts</string>
-    <string name="davis_site__address">6000 E. Valencia Rd, Tucson, Arizona 85756</string>
+    <string name="davis_site_address">6000 E. Valencia Rd, Tucson, Arizona 85756</string>
     <string name="davis_site_address_city">Scottsdale</string>
     <string name="davis_site_address_state">AZ</string>
     <string name="davis_site_address_zip_code">88524</string>
@@ -92,7 +92,7 @@
     <string name="dechelly_site_title">Canyon DeChelley National Park</string>
     <string name="dechelley_site_description">For nearly 5,000 years, people have lived in these
         canyons - longer than anyone has lived uninterrupted anywhere on the Colorado Plateau</string>
-    <string name="dechelley_site__address">Chinle, AZ 86503</string>
+    <string name="dechelley_site_address">Chinle, AZ 86503</string>
     <string name="dechelley_site_address_city">Scottsdale</string>
     <string name="dechelley_site_address_state">AZ</string>
     <string name="dechelley_site_address_zip_code">88524</string>
@@ -101,7 +101,7 @@
     <string name="grand_canyon_site_title">Grand Canyon Park National Park</string>
     <string name="grand_canyon_site_description">A natural formation distinguished by layered bands
         of red rock, revealing millions of years of geological history in cross-section</string>
-    <string name="grand_canyon_site__address">Grand Canyon, AZ 86023</string>
+    <string name="grand_canyon_site_address">Grand Canyon, AZ 86023</string>
     <string name="grand_canyon_site_address_city">Scottsdale</string>
     <string name="grand_canyon_site_address_state">AZ</string>
     <string name="grand_canyon_site_address_zip_code">88524</string>
@@ -110,7 +110,7 @@
     <string name="flagstaff_site_title">Humphreys Peak</string>
     <string name="flagstaff_site_description">Humphreys Peak is the highest natural point in the
         U.S. state of Arizona, with an elevation of 12,633 feet.</string>
-    <string name="flagstaff_site__address">Flaggstaff, AZ  35.34640°N / 111.6778°W</string>
+    <string name="flagstaff_site_address">Flaggstaff, AZ  35.34640°N / 111.6778°W</string>
     <string name="flagstaff_site_address_city">Scottsdale</string>
     <string name="flagstaff_site_address_state">AZ</string>
     <string name="flagstaff_site_address_zip_code">88524</string>
@@ -119,18 +119,63 @@
     <string name="missle_site_title">Titan Missle Museum</string>
     <string name="missle_site_description">Air Force Facility Missile Site 8 also known as the Titan
         II ICBM Site 571-7, is a former ICBM missile</string>
-    <string name="missle_site__address">1580 Duval Mine Road, Green Valley, AZ 85614</string>
+    <string name="missle_site_address">1580 Duval Mine Road, Green Valley, AZ 85614</string>
     <string name="missle_site_address_city">Scottsdale</string>
     <string name="missle_site_address_state">AZ</string>
     <string name="missle_site_address_zip_code">88524</string>
     <string name="missle_site_phone_number">(520) 625-7736</string>
 
-    <string name="diamondback_title">Titan Missle Museum</string>
-    <string name="diamondback_description">Air Force Facility Missile Site 8 also known as the Titan
-        II ICBM Site 571-7, is a former ICBM missile</string>
-    <string name="diamondback__address">1580 Duval Mine Road, Green Valley, AZ 85614</string>
+    <string name="diamondback_title">Diamondback\s Baseball</string>
+    <string name="diamondback_description">The Arizona Diamondbacks are a professional baseball
+        team were founded in 1998 as an expansion team in the National League\'s West Division
+        of the MLB. They became the fastest expansion team to win a World Series title (four seasons)
+        when they beat three-time defending champ the New York Yankees in 2001</string>
+    <string name="diamondback_address">Bank One Ballpark, 401 East Jefferson Street, Phoenix, AZ 85044</string>
     <string name="diamondback_address_city">Scottsdale</string>
     <string name="diamondback_address_state">AZ</string>
     <string name="diamondback_address_zip_code">88524</string>
-    <string name="diamondback_phone_number">(520) 625-7736</string>
+    <string name="diamondback_phone_number">(602) 462-6500</string>
+
+    <string name="cardinals_title">Cardinals Football</string>
+    <string name="cardinals_description">The Arizona Cardinals are a professional football team
+        that was founded in 1898</string>
+    <string name="cardinals_address">1 Cardinals Dr, Glendale, AZ 85305</string>
+    <string name="cardinals_ddress_city">Scottsdale</string>
+    <string name="cardinals_address_state">AZ</string>
+    <string name="cardinals_address_zip_code">88524</string>
+    <string name="cardinals_phone_number">(623) 433-7101</string>
+
+    <string name="suns_title">Suns Basketball</string>
+    <string name="suns_description">The Phoenix Suns play in the NBA\'s Pacific Division and are the
+        only team not from California in that division. They were founded in 1968 and play their
+        home games in Talking Stick Resort Arena. They have appeared in two NBA Finals, and
+        lost both.</string>
+    <string name="suns_address">201 E Jefferson St, Phoenix, AZ 85004</string>
+    <string name="suns_ddress_city">Scottsdale</string>
+    <string name="suns_address_state">AZ</string>
+    <string name="suns_address_zip_code">88524</string>
+    <string name="suns_phone_number">(602) 379-7800</string>
+
+    <string name="coyotes_title">Coyotes Hockey</string>
+    <string name="coyotes_description">The Arizona Coyotes are a professional hockey league team
+        based in Glendale. They play their home games at Gila River Arena. The have never played
+        in a Stanley Cup Final. They moved to Arizona in 1996 from Winnipeg, Manitoba.</string>
+    <string name="coyotes_address">9400 W Maryland Ave, Glendale, AZ 85305</string>
+    <string name="coyotes_address_city">Scottsdale</string>
+    <string name="coyotes_address_state">AZ</string>
+    <string name="coyotes_address_zip_code">88524</string>
+    <string name="coyotes_phone_number">(623) 249-2102</string>
+
+    <string name="mercury_title">Mercury Womens Basketball</string>
+    <string name="mercury_description">The Phoenix Mercury are a professional women\'s basketball
+        team based in Phoenix. They play their home games at Talking Stick Resort Arena. They were
+        founded in 1997 as one of the league\'s inaugural teams. They play in the Pacific Division
+        of the WNBA. They have won three WNBA titles.</string>
+    <string name="mercury_address">201 E Jefferson St, Phoenix, AZ 85004</string>
+    <string name="mercury_address_city">Scottsdale</string>
+    <string name="mercury_address_state">AZ</string>
+    <string name="mercury_address_zip_code">88524</string>
+    <string name="mercury_phone_number">(602) 379-7800</string>
+
+
 </resources>
