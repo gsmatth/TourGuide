@@ -125,4 +125,12 @@
     <string name="missle_site_address_zip_code">88524</string>
     <string name="missle_site_phone_number">(520) 625-7736</string>
 
+    <string name="diamondback_title">Titan Missle Museum</string>
+    <string name="diamondback_description">Air Force Facility Missile Site 8 also known as the Titan
+        II ICBM Site 571-7, is a former ICBM missile</string>
+    <string name="diamondback__address">1580 Duval Mine Road, Green Valley, AZ 85614</string>
+    <string name="diamondback_address_city">Scottsdale</string>
+    <string name="diamondback_address_state">AZ</string>
+    <string name="diamondback_address_zip_code">88524</string>
+    <string name="diamondback_phone_number">(520) 625-7736</string>
 </resources>

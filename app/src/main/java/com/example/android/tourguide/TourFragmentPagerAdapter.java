@@ -17,14 +17,15 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
             return new DiningFragment();
         } else if(position == 1){
             return new SiteFragment();
-        }
-        else{
+        }  else if(position == 2){
+            return new SiteFragment();
+        } else {
             return new DiningFragment();
         }
     }
 
     @Override
-    public int getCount(){return 2;}
+    public int getCount(){return 3;}
 
     @Override
     public CharSequence getPageTitle(int position){
@@ -32,8 +33,9 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
             return "dining";
         } else if(position == 1){
             return "sites";
-        }
-        else {
+        } else if(position == 2){
+            return "sports";
+        } else {
             return "dining";
         }
     }
