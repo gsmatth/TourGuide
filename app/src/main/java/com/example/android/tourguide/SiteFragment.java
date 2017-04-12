@@ -26,7 +26,6 @@ public class SiteFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Log.v("SiteFragment", "entered SiteFragement.java");
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
         final ArrayList<Tour> tours = new ArrayList<Tour>();
@@ -46,7 +45,6 @@ public class SiteFragment extends Fragment {
         tours.add(new Tour(R.string.missle_site_title, R.string.missle_site_description,
                 R.string.missle_site_address, R.string.missle_site_phone_number,
                 R.drawable.missle));
-
 
         TourAdapter itemsAdapter = new TourAdapter((getActivity()), tours, R.color.colorPrimary);
 
