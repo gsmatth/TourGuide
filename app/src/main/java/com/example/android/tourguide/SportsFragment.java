@@ -47,7 +47,6 @@ public class SportsFragment extends Fragment {
                 R.string.coyotes_address, R.string.coyotes_phone_number,
                 R.drawable.coyote));
 
-
         TourAdapter itemsAdapter = new TourAdapter((getActivity()), tours, R.color.colorPrimary);
 
         final ListView listView = (ListView) rootView.findViewById(R.id.list);

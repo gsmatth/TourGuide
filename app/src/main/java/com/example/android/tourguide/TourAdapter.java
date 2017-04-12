@@ -1,6 +1,7 @@
 package com.example.android.tourguide;
 
 import android.content.Context;
+import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -40,26 +41,21 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
         //get the current Tour object in the ArrayList
         Tour currentTourObject = getItem(position);
-        Log.v("TourAdapter", "currentTourObject: " + currentTourObject);
 
-        ImageView foodImage = (ImageView) listItemView.findViewById(R.id.site_image);
-        foodImage.setImageResource(currentTourObject.getImageSourceId());
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.site_image);
+        imageView.setImageResource(currentTourObject.getImageSourceId());
 
         //set the tex
         TextView title = (TextView) listItemView.findViewById(R.id.title);
-        Log.v("TourAdapter", "title: "+ title.toString());
         title.setText(currentTourObject.getName());
 
         TextView description = (TextView) listItemView.findViewById(R.id.description);
-        Log.v("TourAdapter", "description: "+ description);
         description.setText(currentTourObject.getDescription());
 
         TextView address = (TextView) listItemView.findViewById(R.id.address);
-        Log.v("TourAdapter", "address: "+ address);
         address.setText(currentTourObject.getCompleteAddress());
 
         TextView phoneNumber = (TextView) listItemView.findViewById(R.id.phone_number);
-        Log.v("TourAdapter", "phoneNumber: "+ phoneNumber);
         phoneNumber.setText(currentTourObject.getPhoneNumber());
 
         if (currentTourObject.mCostRange == 0) {
@@ -68,7 +64,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
         } else {
             TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
-            Log.v("TourAdapter", "costRange: " + costRange);
             costRange.setText(currentTourObject.getCostRange());
 
         }

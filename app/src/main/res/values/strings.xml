@@ -11,139 +11,97 @@
     <string name="kai_address_state">AZ</string>
     <string name="kai_address_zip_code">85048</string>
     <string name="kai_cost_range">$$$$</string>
-    <string name="kai_phone_number">(602) 385-5726</string>
+    <string name="kai_phone_number">(602) 385&#8211;5726</string>
 
 
     <string name="eddiev_restaurant_title">Eddie Vs</string>
     <string name="eddiev_restaurant_description">Prime Seafood and Steak restaurant at
         the Scottsdale Quarter. Happy hour, live jazz music,valet parking.</string>
-    <string name="eddiev_address">15323 N Scottsdale Rd, Scottsdale, AZ, 88524</string>
-    <string name="eddiev_address_city">Scottsdale</string>
-    <string name="eddiev_address_state">AZ</string>
-    <string name="eddiev_address_zip_code">88524</string>
+    <string name="eddiev_address">15323 N Scottsdale Rd, Scottsdale, AZ 88524</string>
     <string name="eddiev_cost_range">$$$</string>
-    <string name="eddiev_phone_number">(480) 730-4800</string>
+    <string name="eddiev_phone_number">(480) 730&#8211;4800</string>
 
     <string name="wrights_restaurant_title">Wrights</string>
     <string name="wrights_restaurant_description">Contemporary restaurant dishing out high-end
         New American fare inside the luxury Biltmore Hotel.</string>
-    <string name="wrights_address">2400 E Missouri Ave, Phoenix, AZ, 88016</string>
-    <string name="wrights_address_city">Scottsdale</string>
-    <string name="wrights_address_state">AZ</string>
-    <string name="wrights_address_zip_code">88524</string>
+    <string name="wrights_address">2400 E Missouri Ave, Phoenix, AZ 88016</string>
     <string name="wrights_cost_range">$$$</string>
-    <string name="wrights_phone_number">(855) 689-2878</string>
+    <string name="wrights_phone_number">(855) 689&#8211;2878</string>
 
 
     <string name="north_restaurant_title">North\'s at Arcadia</string>
     <string name="north_restaurant_description">Contemporary takes on Italian classics star at
         this warehouse-chic trattoria with a lively bar.</string>
-    <string name="north_address">4925 N 40th St, Phoenix, AZ, 88018</string>
-    <string name="north_address_city">Scottsdale</string>
-    <string name="north_address_state">AZ</string>
-    <string name="north_address_zip_code">88524</string>
+    <string name="north_address">4925 N 40th St, Phoenix, AZ 88018</string>
     <string name="north_cost_range">$$$</string>
-    <string name="north_phone_number">(602) 324-5600</string>
+    <string name="north_phone_number">(602) 324&#8211;5600</string>
 
 
     <string name="firebird_restaurant_title">Firebird Grill</string>
     <string name="firebird_restaurant_description">Chain restaurant serving steaks, seafood and cocktails
               in an upscale lodgelike setting</string>
-    <string name="firebird_address">3435 W Chandler Blvd", Chandler,
-               AZ, 85226</string>
-    <string name="firebird_address_city">Scottsdale</string>
-    <string name="firebird_address_state">AZ</string>
-    <string name="firebird_address_zip_code">88524</string>
+    <string name="firebird_address">3435 W Chandler Blvd", Chandler, AZ 85226</string>
     <string name="firebird_cost_range">$$$</string>
-    <string name="firebird_phone_number">480 730-4800</string>
-
+    <string name="firebird_phone_number">480 730&#8211;4800</string>
 
     <string name="carolina_restaurant_title">Carolina\s</string>
     <string name="carolina_restaurant_description">Landmark Mexican joint turning out traditional dishes
               in a basic, counter-serve setting.</string>
-    <string name="carolina_address">1202 E Mohave St, Phoenix,
-               AZ, 85034</string>
-    <string name="carolina_address_city">Scottsdale</string>
-    <string name="carolina_address_state">AZ</string>
-    <string name="carolina_address_zip_code">88524</string>
+    <string name="carolina_address">1202 E Mohave St, Phoenix, AZ 85034</string>
     <string name="carolina_cost_range">$$</string>
-    <string name="carolina_phone_number">(602) 252-1503</string>
-
+    <string name="carolina_phone_number">(602) 252&#8211;1503</string>
 
     <string name="kabuki_restaurant_title">Kabuki</string>
     <string name="kabuki_restaurant_description">Japanese chain with a clubby vibe offering sushi,
         entrees, lunch specials and happy hours.</string>
-    <string name="kabuki_address">2000 E Rio Salado Pkwy, Tempe, AZ, 85281</string>
-    <string name="kabuki_address_city">Scottsdale</string>
-    <string name="kabuki_address_state">AZ</string>
-    <string name="kabuki_address_zip_code">88524</string>
+    <string name="kabuki_address">2000 E Rio Salado Pkwy, Tempe, AZ 85281</string>
     <string name="kabuki_cost_range">$$</string>
-    <string name="kabuki_phone_number">(480) 350-9160</string>
+    <string name="kabuki_phone_number">(480) 350&#8211;9160</string>
 
     <string name="davis_site_title">The Pima Air and Space Museum</string>
     <string name="davis_site_description">One of the largest non-government funded aviation and
-        space museums in the world! Featuring over 300 historical aircrafts</string>
-    <string name="davis_site_address">6000 E. Valencia Rd, Tucson, Arizona 85756</string>
-    <string name="davis_site_address_city">Scottsdale</string>
-    <string name="davis_site_address_state">AZ</string>
-    <string name="davis_site_address_zip_code">88524</string>
-    <string name="davis_site_phone_number">(520) 574-0462</string>
+        space museums in the world! Featuring over 300 historical aircraft</string>
+    <string name="davis_site_address">6000 E. Valencia Rd, Tucson, AZ 85756</string>>
+    <string name="davis_site_phone_number">(520) 574&#8211;0462</string>
 
     <string name="dechelly_site_title">Canyon DeChelley National Park</string>
     <string name="dechelley_site_description">For nearly 5,000 years, people have lived in these
         canyons - longer than anyone has lived uninterrupted anywhere on the Colorado Plateau</string>
     <string name="dechelley_site_address">Chinle, AZ 86503</string>
-    <string name="dechelley_site_address_city">Scottsdale</string>
-    <string name="dechelley_site_address_state">AZ</string>
-    <string name="dechelley_site_address_zip_code">88524</string>
-    <string name="dechelley_site_phone_number">(928) 674-5500</string>
+    <string name="dechelley_site_phone_number">(928) 674&#8211;5500</string>
 
     <string name="grand_canyon_site_title">Grand Canyon Park National Park</string>
     <string name="grand_canyon_site_description">A natural formation distinguished by layered bands
         of red rock, revealing millions of years of geological history in cross-section</string>
-    <string name="grand_canyon_site_address">Grand Canyon, AZ 86023</string>
-    <string name="grand_canyon_site_address_city">Scottsdale</string>
-    <string name="grand_canyon_site_address_state">AZ</string>
-    <string name="grand_canyon_site_address_zip_code">88524</string>
-    <string name="grand_canyon_site_phone_number">(928) 638-7888 </string>
+    <string name="grand_canyon_site_address">Grand Canyon, AZ 86023</string>>
+    <string name="grand_canyon_site_phone_number">(928) 638&#8211;7888 </string>
 
     <string name="flagstaff_site_title">Humphreys Peak</string>
     <string name="flagstaff_site_description">Humphreys Peak is the highest natural point in the
         U.S. state of Arizona, with an elevation of 12,633 feet.</string>
     <string name="flagstaff_site_address">Flaggstaff, AZ  35.34640°N / 111.6778°W</string>
-    <string name="flagstaff_site_address_city">Scottsdale</string>
-    <string name="flagstaff_site_address_state">AZ</string>
-    <string name="flagstaff_site_address_zip_code">88524</string>
     <string name="flagstaff_site_phone_number">None</string>
 
-    <string name="missle_site_title">Titan Missle Museum</string>
+    <string name="missle_site_title">Titan Missile Museum</string>
     <string name="missle_site_description">Air Force Facility Missile Site 8 also known as the Titan
         II ICBM Site 571-7, is a former ICBM missile</string>
     <string name="missle_site_address">1580 Duval Mine Road, Green Valley, AZ 85614</string>
-    <string name="missle_site_address_city">Scottsdale</string>
-    <string name="missle_site_address_state">AZ</string>
-    <string name="missle_site_address_zip_code">88524</string>
-    <string name="missle_site_phone_number">(520) 625-7736</string>
+    <string name="missle_site_phone_number">(520) 625&#8211;7736</string>
 
     <string name="diamondback_title">Diamondback\s Baseball</string>
     <string name="diamondback_description">The Arizona Diamondbacks are a professional baseball
         team were founded in 1998 as an expansion team in the National League\'s West Division
         of the MLB. They became the fastest expansion team to win a World Series title (four seasons)
         when they beat three-time defending champ the New York Yankees in 2001</string>
-    <string name="diamondback_address">Bank One Ballpark, 401 East Jefferson Street, Phoenix, AZ 85044</string>
-    <string name="diamondback_address_city">Scottsdale</string>
-    <string name="diamondback_address_state">AZ</string>
-    <string name="diamondback_address_zip_code">88524</string>
-    <string name="diamondback_phone_number">(602) 462-6500</string>
+    <string name="diamondback_address">Bank One Ballpark, 401 East Jefferson Street, Phoenix,
+        AZ 85044</string>
+    <string name="diamondback_phone_number">(602) 462&#8211;6500</string>
 
     <string name="cardinals_title">Cardinals Football</string>
     <string name="cardinals_description">The Arizona Cardinals are a professional football team
         that was founded in 1898</string>
     <string name="cardinals_address">1 Cardinals Dr, Glendale, AZ 85305</string>
-    <string name="cardinals_ddress_city">Scottsdale</string>
-    <string name="cardinals_address_state">AZ</string>
-    <string name="cardinals_address_zip_code">88524</string>
-    <string name="cardinals_phone_number">(623) 433-7101</string>
+    <string name="cardinals_phone_number">(623) 433&#8211;7101</string>
 
     <string name="suns_title">Suns Basketball</string>
     <string name="suns_description">The Phoenix Suns play in the NBA\'s Pacific Division and are the
@@ -151,20 +109,14 @@
         home games in Talking Stick Resort Arena. They have appeared in two NBA Finals, and
         lost both.</string>
     <string name="suns_address">201 E Jefferson St, Phoenix, AZ 85004</string>
-    <string name="suns_ddress_city">Scottsdale</string>
-    <string name="suns_address_state">AZ</string>
-    <string name="suns_address_zip_code">88524</string>
-    <string name="suns_phone_number">(602) 379-7800</string>
+    <string name="suns_phone_number">(602) 379&#8211;7800</string>
 
     <string name="coyotes_title">Coyotes Hockey</string>
     <string name="coyotes_description">The Arizona Coyotes are a professional hockey league team
         based in Glendale. They play their home games at Gila River Arena. The have never played
         in a Stanley Cup Final. They moved to Arizona in 1996 from Winnipeg, Manitoba.</string>
     <string name="coyotes_address">9400 W Maryland Ave, Glendale, AZ 85305</string>
-    <string name="coyotes_address_city">Scottsdale</string>
-    <string name="coyotes_address_state">AZ</string>
-    <string name="coyotes_address_zip_code">88524</string>
-    <string name="coyotes_phone_number">(623) 249-2102</string>
+    <string name="coyotes_phone_number">(623) 249&#8211;2102</string>
 
     <string name="mercury_title">Mercury Womens Basketball</string>
     <string name="mercury_description">The Phoenix Mercury are a professional women\'s basketball
@@ -172,10 +124,42 @@
         founded in 1997 as one of the league\'s inaugural teams. They play in the Pacific Division
         of the WNBA. They have won three WNBA titles.</string>
     <string name="mercury_address">201 E Jefferson St, Phoenix, AZ 85004</string>
-    <string name="mercury_address_city">Scottsdale</string>
-    <string name="mercury_address_state">AZ</string>
-    <string name="mercury_address_zip_code">88524</string>
-    <string name="mercury_phone_number">(602) 379-7800</string>
+    <string name="mercury_phone_number">(602) 379&#8211;7800</string>
+
+    <string name="sanctuary_title">Sanctuary Resort and Spa</string>
+    <string name="sanctuary_description">This famed Scottsdale luxury resort will introduce you to a
+        refreshing new spirit of sophistication and relaxed refinements, as you discover 53 acres
+        of your own private paradise</string>
+    <string name="sanctuary_address">5700 East McDonald Drive Paradise Valley, AZ 85253</string>
+    <string name="sanctuary_phone_number">(480) 948&#8211;2100</string>
+
+    <string name="lauberge_title">L\'Auberge De Sedona Resort and Spa</string>
+    <string name="lauberge_description">More than a hotel, a restaurant and a spa, L’Auberge is
+        a place where extraordinary memories are created, romance rekindled and where unplugging
+        results in true connection.</string>
+    <string name="lauberge_address">301 L\'Auberge Lane, Sedona, AZ 86336</string>
+    <string name="lauberge_phone_number">(855) 905&#8211;5745</string>
+
+    <string name="princess_title">Fairmont Scottsdale Princess</string>
+    <string name="princess_description">TThe AAA Five Diamond Fairmont Scottsdale Princess provides
+        the perfect setting to enjoy al fresco living in the blooming Sonoran Desert</string>
+    <string name="princess_address">7575 East Princess Drive, Scottsdale, AZ 85255</string>
+    <string name="princess_phone_number">(480) 585&#8211;4848 </string>
+
+    <string name="hyatt_title">Hyatt Regency at Gainey Ranch</string>
+    <string name="hyatt_description">Discover the infinite beauty and natural wonders of the Sonoran
+        Desert surrounding our breathtaking 27-acre Scottsdale hotel in Arizona. Set amidst
+        flowering cactus and framed against the majestic McDowell Mountains.</string>
+    <string name="hyatt_address">7500 E. Doubletree Ranch Road, Scottsdale, AZ 85258</string>
+    <string name="hyatt_phone_number">(480) 444&#8211;1234</string>
+
+    <string name="troon_title">Four Seasons Resort Scottsdale at Troon</string>
+    <string name="troon_description">Nestled into the foothills of Pinnacle Peak – amid
+        towering, multi-armed saguaro cacti – the adobe casitas of Four Seasons Resort in
+        Scottsdale, Arizona embody the desert’s magic through thoughtful design and the outstanding
+        talent of regional artists and craftspeople.</string>
+    <string name="troon_address">10600 East Crescent Moon Drive, Scottsdale, AZ 85262</string>
+    <string name="troon_phone_number">(480) 515&#8211;5700</string>
 
 
 </resources>
