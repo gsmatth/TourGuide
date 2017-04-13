@@ -2,7 +2,6 @@ package com.example.android.tourguide;
 
 import android.util.Log;
 
-import static android.R.attr.phoneNumber;
 
 /**
  * Created by djp on 4/6/17.
