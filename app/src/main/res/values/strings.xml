@@ -1,15 +1,11 @@
 <resources>
     <string name="app_name">TourGuide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="kia_restaurant_title">Kai</string>
     <string name="kia_restaurant_description">Arizona’s only AAA Five-Diamond and Forbes Five-Star
         restaurant. features a menu rich in creativity, history and Native American culture.</string>
     <string name="kai_address">5594 Wild Horse Pass Blvd, Phoenix, AZ 85048</string>
-    <string name="kai_address_city">Phoenix</string>
-    <string name="kai_address_state">AZ</string>
-    <string name="kai_address_zip_code">85048</string>
     <string name="kai_cost_range">$$$$</string>
     <string name="kai_phone_number">(602) 385&#8211;5726</string>
 
@@ -160,6 +156,11 @@
         talent of regional artists and craftspeople.</string>
     <string name="troon_address">10600 East Crescent Moon Drive, Scottsdale, AZ 85262</string>
     <string name="troon_phone_number">(480) 515&#8211;5700</string>
+
+    <string name="get_page_title_dining">dining</string>
+    <string name="get_page_title_resorts">resorts</string>
+    <string name="get_page_title_sports">sports</string>
+    <string name="get_page_title_sites">sites</string>
 
 
 </resources>

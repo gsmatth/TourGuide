@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         //create an adapter that controls which fragment is currently shown
-        TourFragmentPagerAdapter adapter = new TourFragmentPagerAdapter(getSupportFragmentManager());
+        TourFragmentPagerAdapter adapter = new TourFragmentPagerAdapter(getSupportFragmentManager(), this);
 
         //sets the adapter on the ViewPager
         viewPager.setAdapter(adapter);

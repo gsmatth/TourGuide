@@ -1,15 +1,25 @@
 package com.example.android.tourguide;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.util.Log;
+
+import static java.security.AccessController.getContext;
 
 /**
  * Created by djp on 4/6/17.
  */
 
 public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
-    public TourFragmentPagerAdapter(FragmentManager fm){super(fm);}
+
+    private Context mContext;
+
+    public TourFragmentPagerAdapter(FragmentManager fm, Context context){
+        super(fm);
+        mContext = context;
+    }
 
     @Override
     public Fragment getItem(int position){
@@ -32,13 +42,13 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position){
         if(position == 0){
-            return "dining";
+            return mContext.getResources().getString(R.string.get_page_title_dining);
         } else if(position == 1){
-            return "sites";
+            return mContext.getResources().getString(R.string.get_page_title_sites);
         } else if(position == 2){
-            return "sports";
+            return mContext.getResources().getString(R.string.get_page_title_sports);
         } else if(position == 3){
-            return "resorts";
+            return mContext.getResources().getString(R.string.get_page_title_resorts);
         } else {
             return "dining";
         }

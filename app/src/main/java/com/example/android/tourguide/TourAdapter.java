@@ -25,7 +25,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
     public TourAdapter(Context context, ArrayList<Tour> tours, int colorResourceId){
         super(context, 0, tours);
-        Log.v("TourAdapter", "value of colorResosurceId parameter passed in: " + colorResourceId);
         mColorResourceId = colorResourceId;
     }
 
@@ -34,8 +33,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent){
         View listItemView = convertView;
 
-        //if a listItemView is not availale for reuse, inflate a new java object
-        if(listItemView == null){
+        if(convertView == null){
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
