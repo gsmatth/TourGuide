@@ -14,3 +14,6 @@ http://stackoverflow.com/questions/20006736/cant-use-method-getstringint-resid-i
 https://teamtreehouse.com/community/read-this-your-going-to-run-into-some-problems-later-in-this-class
 
 http://stackoverflow.com/questions/23306147/access-to-getstring-in-a-fragment-that-implements-a-viewpager
+
+Knowledge Gap:
+I do not understand which context I am passing into my TourFragmentPagerAdapter and why am I using 'this' instead of getActivity()?
