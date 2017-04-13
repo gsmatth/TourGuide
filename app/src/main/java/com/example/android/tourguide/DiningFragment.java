@@ -57,7 +57,7 @@ public class DiningFragment extends Fragment {
         TourAdapter itemsAdapter = new TourAdapter(getActivity(), tours, R.color.colorPrimary);
 
         //caste an element with android id "list" to a ListView
-        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = (ListView) rootView.findViewById(R.id.tourList);
 
         //set the TourAdapter created above on the ListView created above
         listView.setAdapter(itemsAdapter);

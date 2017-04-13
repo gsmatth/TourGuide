@@ -42,7 +42,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.site_image);
         imageView.setImageResource(currentTourObject.getImageSourceId());
-
         //set the tex
         TextView title = (TextView) listItemView.findViewById(R.id.title);
         title.setText(currentTourObject.getName());
@@ -56,23 +55,22 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         TextView phoneNumber = (TextView) listItemView.findViewById(R.id.phone_number);
         phoneNumber.setText(currentTourObject.getPhoneNumber());
 
+        TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
+
         if (currentTourObject.mCostRange == 0) {
-            TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
             costRange.setVisibility(View.GONE);
-
-        } else {
-            TextView costRange = (TextView) listItemView.findViewById(R.id.cost);
+        } else {;
             costRange.setText(currentTourObject.getCostRange());
-
         }
+
+        ImageView starRatingIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
 
         if(currentTourObject.mStarRatingResourceId == 0){
-            ImageView starRatingIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
             starRatingIcon.setVisibility(View.GONE);
        } else {
-            ImageView starIcon = (ImageView) listItemView.findViewById(R.id.star_icon);
-            starIcon.setImageResource(currentTourObject.getStarRatingResourceId());
+            starRatingIcon.setImageResource(currentTourObject.getStarRatingResourceId());
         }
+
         return listItemView;
     }
 

@@ -49,7 +49,7 @@ public class SportsFragment extends Fragment {
 
         TourAdapter itemsAdapter = new TourAdapter((getActivity()), tours, R.color.colorPrimary);
 
-        final ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = (ListView) rootView.findViewById(R.id.tourList);
 
         listView.setAdapter(itemsAdapter);
 
